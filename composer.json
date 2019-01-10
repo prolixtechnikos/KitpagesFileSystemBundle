@@ -4,7 +4,7 @@
     "description": "Symfony Kitpages FileSystem Bundle. Abstraction layer for files (local, S3)",
     "keywords": ["FileSystem", "File abstraction layer", "gaufrette"],
     "homepage": "https://github.com/kitpages/KitpagesFileSystemBundle",
-    "license": "BSD",
+    "license": "MIT",
     "authors": [
         {
             "name": "Sebastien Lefebvre"
