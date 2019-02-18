@@ -27,6 +27,7 @@ class AmazonS3AdapterFactory implements AdapterFactoryInterface
             ->addArgument($config['key'])
             ->addArgument($config['secret_key'])
             ->addArgument($id)
+            ->setPublic(true)
         ;
     }
 
