@@ -31,8 +31,8 @@ class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder()
     {
-        $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('kitpages_file_system');
+        $treeBuilder = new TreeBuilder('kitpages_file_system');
+        $rootNode = $treeBuilder->getRootNode();
 
         $this->addMainSection($rootNode, $this->factories);
 
